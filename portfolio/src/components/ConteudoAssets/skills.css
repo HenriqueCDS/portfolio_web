@@ -1,0 +1,62 @@
+
+.template-skills{
+    margin-top: 15%;
+  }
+  
+  
+  
+  
+  .skils{ 
+      margin-top: 2%;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-gap: 0.5rem;
+     
+    }
+  .skils-item{
+    
+  
+    padding: 20px;
+    font-size: 30px;
+    
+  
+  }
+  .skils-item h1{
+      text-align: center;
+      font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+      font-size: 1rem;
+      padding: 0px;
+      line-height:1rem;
+  }
+  
+  .skils-borders  {
+    border: solid 4px;
+    border-style: dashed;
+  
+    
+    text-align: center;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    
+    
+        
+  }
+  
+  .skils-titulo{
+    border-top: solid 0px;
+    border-style: dashed;
+  }
+  
+  
+  .skils-borders  {
+    border: solid 4px;
+    border-style: dashed;
+    text-align: center;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    transition: 1s;
+    
+  }
+  
+  .skils-borders:hover{
+    filter: brightness(150%);
+   
+  }

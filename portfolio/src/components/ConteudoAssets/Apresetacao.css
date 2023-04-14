@@ -1,0 +1,49 @@
+
+.conteudo .apresentacao{
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    margin-top:3%;
+  
+  }
+
+  .conteudo .apresentacao .textoApresent li{
+    display: inline;
+    float: right
+ 
+     
+  }
+  .conteudo .apresentacao .textoApresent a{
+   
+    color:#181848 ;   
+    
+  }
+
+
+  .conteudo .apresentacao button span{
+    font-weight: 700;
+    font-size: 18px;
+
+  }
+  .conteudo .apresentacao button span:hover{
+      color: #304878;
+  }
+  
+ 
+  .conteudo .image img{
+ 
+    width: 18rem;
+    max-width: 100%;
+   
+    height: 18rem;
+    border-radius: 9999px;
+    font-size: 18px;
+    border: solid 6px;
+
+  }
+
+  .conteudo .apresentacao img:hover{
+    filter: brightness(150%);
+  
+  }

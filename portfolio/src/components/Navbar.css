@@ -1,0 +1,35 @@
+.navbar{
+  
+    border-style: solid;
+    border-radius: 9999px;
+    background-color:#6ae7a2;
+    
+    width: 100%;
+  }
+
+  .navbar li {
+    display: inline;
+    margin:  1rem;
+    
+  }
+  .navbar a {
+    display: inline;
+    text-decoration: none;
+    cursor: pointer;
+    
+  }
+  .navbar span {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #181848;
+    transition: 1s;
+   
+  }
+
+  .navbar span:hover{
+    color: #4263a5
+    
+  }
+  
