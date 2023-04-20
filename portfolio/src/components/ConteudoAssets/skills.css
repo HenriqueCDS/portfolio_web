@@ -1,6 +1,6 @@
 
 .template-skills{
-    margin-top: 15%;
+    margin-top: 25%;
   }
   
   
@@ -59,4 +59,13 @@
   .skils-borders:hover{
     filter: brightness(150%);
    
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }

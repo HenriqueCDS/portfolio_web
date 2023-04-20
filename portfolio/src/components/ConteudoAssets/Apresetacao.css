@@ -7,18 +7,38 @@
     margin-top:3%;
   
   }
+  .textoApresent{
+    animation: opacity normal 1s linear; 
+    
+  }
 
+  @keyframes opacity {
+    from {
+      opacity: 0;
+      
+    } 
+  }
+  
   .conteudo .apresentacao .textoApresent li{
     display: inline;
-    float: right
- 
+    float: right;
+  
      
   }
   .conteudo .apresentacao .textoApresent a{
-   
-    color:#181848 ;   
+    
+    color:#7373ff ; 
+    transition: 1s;  
     
   }
+
+  .conteudo .apresentacao .textoApresent a:hover{
+    filter: brightness(150%);
+    
+  }
+ 
+    
+
 
 
   .conteudo .apresentacao button span{
@@ -33,17 +53,31 @@
  
   .conteudo .image img{
  
-    width: 18rem;
+    width: 25rem;
     max-width: 100%;
-   
-    height: 18rem;
+    height: 25rem;
     border-radius: 9999px;
     font-size: 18px;
-    border: solid 6px;
-
+    border: solid 2px;
+    animation: opacity normal 1s linear; 
+  
   }
 
   .conteudo .apresentacao img:hover{
-    filter: brightness(150%);
+    filter:  drop-shadow(4px 6px 6px gray);
+    animation: spin infinite 60s linear; 
   
+  } 
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }
+  .conteudo .apresentacao .textoApresent #smile{
+    animation: spin infinite 1s; 
+   
+  }
+ 

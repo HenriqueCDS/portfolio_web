@@ -43,7 +43,8 @@
 
   .projetos .card_grid{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50%  50% ;
+  
     grid-gap: 2rem;
 
   }
@@ -52,36 +53,119 @@
     box-sizing: border-box;
     border: solid 1px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    overflow: hidden;
 
   }
 
   .projetos .card h3{
     
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1rem;
-    font-weight: 200;
-    font-size: 1.3rem;
-    border: solid 1px;
+    
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 0rem;
+    line-height: 0.5rem;
     
   }
   .projetos .card p{
     text-align: center;
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1rem;
-    font-weight: 200;
+    line-height: 0.5rem;
+
     font-size: 1rem;
-    border: solid 1px;
+   
     
   }
-  .projetos .card img{
-    text-align: center;
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1rem;
-    font-weight: 200;
-    font-size: 1rem;
+  .projetos .card .image{
+    width: 100%;
+    height: 70%;
+    image-resolution: inherit;
     border: solid 1px;
+    display: flex;
+    justify-content: center;
+
+    
+  } 
+ .projetos .card #twitter{
+    background-size: 10%;
+    border: solid  1px ;
+
     
   }
+  .projetos .card .slides{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    position: relative;
+
+  }
+
+  
+  .projetos .card .navbar-slide{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left:50%;
+    transform: translate(-50%);
+  }
+  .projetos .card  .radio-btn{
+    display: none;
+  }
+  .projetos .card .manual{
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 999px;
+    cursor: pointer;
+    
+  }
+
+  /*estilizando o elemento filho do manual que n for o ultimo*/
+  .projetos .card .manual:not(:last-child){
+    margin-right: 1.5rem;
+  }
+
+  .projetos .card .manual:hover{
+    background-color: #6ae7a2;
+    transition: 0.5s;
+  }
+
+  .projetos .card .slides{
+    display: flex
+    
+  }
+
+  .projetos .card .slides{
+    width: 100%;
+    
+  }
+ 
+  /* verificar quando o input radio 1 tiver selecionado */
+  #radio1:checked ~ .slide_fist{
+    margin-left: 0%;
+    transition: 1s;
+  }
+  #radio2:checked ~ .slide_fist{
+    margin-left: -240%;
+    transition: 1s;
+  }
+  #radio3:checked ~ .slide_fist{
+    margin-left: -400%;
+    transition: 1s;
+  }
+  #radio4:checked ~ .slide_fist{
+    margin-left: -600%;
+    transition: 1s;
+  }
+
+
+  @keyframes opacity {
+    from {
+      opacity: 0;
+      
+    } 
+  }
+  
+ 
 
 
 

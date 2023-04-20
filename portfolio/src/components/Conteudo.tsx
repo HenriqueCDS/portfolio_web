@@ -1,4 +1,4 @@
-import { ArrowCircleDown, ChatCircleText, GithubLogo, LinkedinLogo, } from 'phosphor-react';
+import { ArchiveBox, ArrowCircleDown, ChatCircleText, GithubLogo, LinkedinLogo, } from 'phosphor-react';
 import './Conteudo.css';
 import './ConteudoAssets/Apresetacao.css';
 import './ConteudoAssets/skills.css';
@@ -12,11 +12,13 @@ export function Conteudo() {
 
         <div className = 'apresentacao' id='home'>
           <div className='textoApresent'>
-          <h1>Henrique Devツ</h1>
+          <h1>Henrique Dev<span id='smile'>ツ</span></h1>
           <p>Ei sou desenvolvedor Fullstack, Bem vindo ao meu portifolio!! </p>
           <ul>
             <li><a href="https://github.com/HenriqueCDS"><span><GithubLogo size={32} /></span></a></li>
             <li><a href="https://www.linkedin.com/in/henrique-cordeiro-940709201/"><span><LinkedinLogo size={32} /></span></a></li>
+            <li><a href="./src/assets/files/Cv_Henrique.Cordeiro.pdf" download={'CV.Henrique_ordeiro'}><ArchiveBox size={32} /></a></li>
+      
           </ul>
           
           
@@ -31,11 +33,12 @@ export function Conteudo() {
           
         <h1>#SKills --------------   <ArrowCircleDown size={40} /></h1>
           <div className='skils'>
-            <SkillCard key='Props' titulo ='LINGUAGENS' texto = {['PHP','Python','Javascript','C e C++']} />
+            <SkillCard key='Props' titulo ='LINGUAGENS' texto = {['PHP','Python','Javascript','C e C++']} icon = {[<ArrowCircleDown />,<ArrowCircleDown />,<ArrowCircleDown />]} />
             <SkillCard key='Props' titulo ='DATABASES' texto = {['Mysql','MongoDB']} />
             <SkillCard key='Props' titulo ='Metodologias ágeis' texto = {['SCRUM ','Kanban']} />
             <SkillCard key='Props' titulo ='Outros' texto = {['HTML','CSS','Node js','Rest api']} />
             <SkillCard key='Props' titulo ='Framework' texto = {['React ']} />
+            
           
           </div>
         </div>
@@ -45,19 +48,72 @@ export function Conteudo() {
 
 
         <div className='projetos' id='project'>
-          <h1>#Project --------------   <ArrowCircleDown size={40} /></h1>
+          <h1>#Projetos  --------------   <ArrowCircleDown size={40} /></h1>
 
           <div className='card_grid'>
           
             <div className='card'>
-              <img className="image" src="article.png" alt="article" />
-              <h3>Artigos</h3>
+              <img id='twitter'className="image" src="./src/assets/twitter.png" alt="article" />
+              <p>HTML, CSS, Javascript, React</p>
+              <h3>Twitter</h3>
               <p>Crie e edite artigos</p>
+              <a href="https://github.com/HenriqueCDS"><span><GithubLogo size={32} /></span></a>
+               
+            
               
             </div>
           
-            <div className='card'>42</div>
-            <div className='card'>1</div>
+            <div className='card'>
+              <img className="image" src="./src/assets/api-pokemon.png" alt="article" />
+              <p>HTML, CSS, Javascript, API</p>
+              <h3>Api Pokemon</h3>
+              
+              <p>Crie e edite artigos</p>
+              <a href="https://github.com/HenriqueCDS"><span><GithubLogo size={32} /></span></a>
+              
+            </div>
+          
+            <div className='card'>
+              <img className="image" src="https://i.pinimg.com/564x/2e/1f/fd/2e1ffdb926f30497aa5dc9bfb60a266f.jpg" alt="article" />
+              <p> Javascript, SQL, NODE JS</p>
+              <h3>Rest Api</h3>
+              <p>Crie e edite artigos</p>
+              <a href="https://github.com/HenriqueCDS"><span><GithubLogo size={32} /></span></a>
+             
+            </div>
+            <div className='card'>
+              <div className='slides'>
+                <input type='radio' className='radio-btn' name='radio-btn' id='radio2' />
+                <input type='radio' className='radio-btn' name='radio-btn' id='radio3' />
+                <input type='radio' className='radio-btn' name='radio-btn' id='radio4' />
+                <input type='radio' className='radio-btn' name='radio-btn' id='radio1' />
+
+                <div className='slide_fist'>
+                    <img src='./src/assets/organo-img1.png' />
+                </div>
+                <div className='slide'>
+                    <img src='./src/assets/organo-img2.png' />
+                </div>
+                <div className='slide'>
+                    <img src='./src/assets/organo-img3.png' />
+                </div>
+                <div className='slide'>
+                    <img src='./src/assets/organo-img4.png' />
+                </div>
+                <div className='navbar-slide'>
+                  <label className ='manual' htmlFor="radio1"></label>
+                  <label className ='manual' htmlFor='radio2'></label>
+                  <label className ='manual' htmlFor='radio3'></label>
+                  <label className ='manual' htmlFor='radio4'></label>
+                </div>
+              </div>
+              
+              
+              <p>HTML, CSS, Javascript, React</p>
+              <h3>Twitter</h3>
+              <p>Crie e edite artigos</p>
+              <a href="https://github.com/HenriqueCDS"><span><GithubLogo size={32} /></span></a>
+            </div>
             
            
           </div>

@@ -1,10 +1,10 @@
 .navbar{
   
     border-style: solid;
-    border-radius: 9999px;
-    background-color:#6ae7a2;
     
-    width: 100%;
+    background-color:#6ae7a2;
+    text-align: center;
+    border-radius: 999px;
   }
 
   .navbar li {
@@ -32,4 +32,12 @@
     color: #4263a5
     
   }
+
+  @keyframes opacity {
+    from {
+      opacity: 0;
+      
+    } 
+  }
+  
   

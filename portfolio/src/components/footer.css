@@ -1,0 +1,71 @@
+.rodape{
+    border: #6ae7a2 0px;
+    padding: 0.5rem;
+    margin-top: 20%
+    }
+.rodape .rodape-flex{
+    display: flex;
+    flex-direction: column; 
+   ;
+}
+
+  
+  .rodape  h1{
+  
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1rem;
+    font-size: 1rem;
+    text-align: center;
+  
+   
+  }
+  .rodape  p{
+  
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5rem;
+  
+    font-size: 1rem;
+    text-align: left;
+    
+    
+  }
+  .rodape  h2{
+  
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+   
+    font-size: 1rem;
+    
+    
+  }
+
+  .rodape  a{
+    color:#6ae7a2; 
+    transition: 1s;  
+    
+  }
+  .rodape  a:hover{
+    filter: brightness(150%);
+  
+  }
+  .rodape .rodape-text-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: right;
+    gap: 0.3rem;
+  }
+
+  .rodape-links{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 0.3rem;
+    transition: 1s;
+    cursor: pointer;
+  }
+
+  hr {
+    border-color: #6ae7a2; 
+    width: 50%;
+  }
