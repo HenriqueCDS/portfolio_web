@@ -1,0 +1,54 @@
+
+  .projetos .carousel{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    transition: 1s;
+    overflow-x: auto;
+    border-top-left-radius:  10px;
+    border-top-right-radius: 10px;
+  
+  }
+
+.projetos .carousel ::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+
+  .projetos .card .radio{
+    display: none;
+
+  }
+  .projetos .card .navegation-bar{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .projetos .card .navegation{
+    border: solid 2px #7373ff;
+    padding: 5px;
+    width: 1rem;
+    
+    cursor: pointer;
+  }
+  .projetos .card .navegation:hover{
+   background-color: #7373ff;
+  }
+  .carousel::-webkit-scrollbar{
+    width: 5px;
+    height: 10px;
+    background-color: #6ae7a2;
+   
+  }
+  .carousel::-webkit-scrollbar-thumb{
+    background-color: #7373ff ;
+    border-radius: 999px;
+    transition: 10s;
+  }
+  .carousel::-webkit-scrollbar-track{
+    background-color: #9c9cff ;
+  
+  }
+ 
+
+ 
+

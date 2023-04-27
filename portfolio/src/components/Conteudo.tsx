@@ -1,8 +1,11 @@
-import { ArchiveBox, ArrowCircleDown, ChatCircleText, GithubLogo, LinkedinLogo, } from 'phosphor-react';
+import { ArchiveBox, ArrowCircleDown,  CodesandboxLogo,  GithubLogo, LinkedinLogo, } from 'phosphor-react';
 import './Conteudo.css';
 import './ConteudoAssets/Apresetacao.css';
+
 import './ConteudoAssets/skills.css';
 import { SkillCard } from './ConteudoAssets/SkillCard';
+import { ProjetosCard } from './ConteudoAssets/ProjetosCard';
+import { CardCarousel } from './ConteudoAssets/ProjetoCardCarrousel';
 
 export function Conteudo() {
     return(
@@ -22,10 +25,12 @@ export function Conteudo() {
           </ul>
           
           
+
+
           </div>
 
           <div className='image'>
-          <img src='https://i.pinimg.com/564x/5f/c1/0a/5fc10ad366102d07050de94e46322864.jpg' />
+          <img src='https://github.com/HenriqueCDS.png' />
           </div>
         </div>
 
@@ -52,47 +57,16 @@ export function Conteudo() {
 
           <div className='card_grid'>
           
-            <div className='card'>
-              <img id='twitter'className="image" src="./src/assets/twitter.png" alt="article" />
-              <p>HTML, CSS, Javascript, React</p>
-              <h3>Twitter</h3>
-              <p>Crie e edite artigos</p>
-              <a href="https://github.com/HenriqueCDS"><span><GithubLogo size={32} /></span></a>
-               
             
-              
-            </div>
+            
           
-            <div className='card'>
-              <img className="image" src="./src/assets/api-pokemon.png" alt="article" />
-              <p>HTML, CSS, Javascript, API</p>
-              <h3>Api Pokemon</h3>
-              
-              <p>Crie e edite artigos</p>
-              <a href="https://github.com/HenriqueCDS"><span><GithubLogo size={32} /></span></a>
-              
-            </div>
-          
-            <div className='card'>
-              <img className="image" src="./src/assets/organo-img1.png" alt="article" />
-              <p> Javascript, SQL, NODE JS</p>
-              <h3>Rest Api</h3>
-              <p>Crie e edite artigos</p>
-              <a href="https://github.com/HenriqueCDS"><span><GithubLogo size={32} /></span></a>
-             
-            </div>
-            
-            <div className='card'>
-              <img className="image" src="https://i.pinimg.com/564x/2e/1f/fd/2e1ffdb926f30497aa5dc9bfb60a266f.jpg" alt="article" />
-              <p> Javascript, SQL, NODE JS</p>
-              <h3>Rest Api</h3>
-              <p>Crie e edite artigos</p>
-              <a href="https://github.com/HenriqueCDS"><span><GithubLogo size={32} /></span></a>
-             
-            </div>
-            
-            
-           
+            <CardCarousel img= {['./src/assets/organo-img1.png','./src/assets/organo-img2.png','./src/assets/organo-img3.png','./src/assets/organo-img4.png']} titulo='Organo' lang = 'HTML, CSS, Javascript, NODE JS, React' link = 'https://github.com/HenriqueCDS/Pokedex-Test-Api' />
+            <ProjetosCard img= './src/assets/api-pokemon.png' titulo='Api Pokemon' lang = 'HTML, CSS, Javascript, API' link = 'https://github.com/HenriqueCDS/Pokedex-Test-Api'/>
+            <ProjetosCard img= './src/assets/organo-img1.png' titulo='Organo' lang = 'HTML, CSS ,Javascript, NODE JS' link = 'https://github.com/HenriqueCDS'/>
+
+            <ProjetosCard img= 'https://i.pinimg.com/564x/2e/1f/fd/2e1ffdb926f30497aa5dc9bfb60a266f.jpg' titulo='Rest Api Edukas' lang = ' Javascript, SQL, NODE JS' link = 'https://github.com/HenriqueCDS'/>
+            <ProjetosCard img= 'https://i.pinimg.com/564x/70/ec/a6/70eca69677ae305d3730b2791f9de2a9.jpg' titulo='Rest Api Mongo' lang = 'Javascript, Mongo, NODE JS' link = 'https://github.com/HenriqueCDS/Mongo-Api'/>
+       
           </div>
 
         </div>

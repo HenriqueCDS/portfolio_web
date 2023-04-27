@@ -8,12 +8,24 @@
   
   }
   .textoApresent{
-    animation: opacity normal 1s linear; 
+    animation:  entryLeft normal 2s linear; 
     
+
   }
 
-  @keyframes opacity {
+
+  @keyframes entryLeft {
     from {
+      
+      transform: translate(-100px);
+      opacity: 0;
+      
+    } 
+  }
+  @keyframes entryRight {
+    from {
+      
+      transform: translate(150px) ;
       opacity: 0;
       
     } 
@@ -22,13 +34,15 @@
   .conteudo .apresentacao .textoApresent li{
     display: inline;
     float: right;
+
   
      
   }
   .conteudo .apresentacao .textoApresent a{
-    
+   
     color:#7373ff ; 
     transition: 1s;  
+    
     
   }
 
@@ -52,20 +66,20 @@
   
  
   .conteudo .image img{
- 
-    width: 25rem;
+    animation:  entryRight normal 2s linear; 
+    width: 20rem;
     max-width: 100%;
-    height: 25rem;
+    height: 20rem;
     border-radius: 9999px;
     font-size: 18px;
     border: solid 2px;
-    animation: opacity normal 1s linear; 
+    transition: 2s;
   
   }
 
   .conteudo .apresentacao img:hover{
     filter:  drop-shadow(4px 6px 6px gray);
-    animation: spin infinite 60s linear; 
+    
   
   } 
   @keyframes spin {
@@ -76,6 +90,7 @@
       transform: rotate(360deg);
     }
   }
+
   .conteudo .apresentacao .textoApresent #smile{
     animation: spin infinite 1s; 
    

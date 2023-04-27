@@ -5,6 +5,7 @@
     background-color:#6ae7a2;
     text-align: center;
     border-radius: 999px;
+    animation: entryUp 3.5s ease ;
   }
 
   .navbar li {
@@ -29,12 +30,23 @@
   }
 
   .navbar span:hover{
-    color: #4263a5
+    color: #4263a5;
+    
     
   }
 
-  @keyframes opacity {
+  @keyframes entryUp {
     from {
+      
+      transform: translateY(-100px) ;
+      opacity: 0;
+      
+    } 
+  }
+
+
+  @keyframes opacity {
+    to {
       opacity: 0;
       
     } 
