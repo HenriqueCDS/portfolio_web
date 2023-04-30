@@ -91,7 +91,8 @@
     display: flex;
     object-fit: cover;
     object-position: left;
-    
+    border-top-left-radius:  10px;
+    border-top-right-radius: 10px;
   } 
 
   .projetos .card a{
@@ -100,7 +101,7 @@
   }
 
   @keyframes card {
-    from {transform: scale(110%) rotate(2deg); }
+    from {transform: scale(105%) rotate(2deg); }
    
   }
 

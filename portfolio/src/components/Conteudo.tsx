@@ -18,8 +18,8 @@ export function Conteudo() {
           <h1>Henrique Dev<span id='smile'>ツ</span></h1>
           <p>Ei sou desenvolvedor Fullstack, Bem vindo ao meu portifolio!! </p>
           <ul>
-            <li><a href="https://github.com/HenriqueCDS"><span><GithubLogo size={32} /></span></a></li>
-            <li><a href="https://www.linkedin.com/in/henrique-cordeiro-940709201/"><span><LinkedinLogo size={32} /></span></a></li>
+            <li><a href="https://github.com/HenriqueCDS" target="_blank"><span><GithubLogo size={32} /></span></a></li>
+            <li><a href="https://www.linkedin.com/in/henrique-cordeiro-940709201/" target="_blank"><span><LinkedinLogo size={32} /></span></a></li>
             <li><a href="./src/assets/files/Cv_Henrique.Cordeiro.pdf" download={'CV.Henrique_cordeiro.pdf'}><ArchiveBox size={32} /></a></li>
       
           </ul>
@@ -60,10 +60,10 @@ export function Conteudo() {
             
             
           
-            <CardCarousel img= {['./src/assets/organo-img1.png','./src/assets/organo-img2.png','./src/assets/organo-img3.png','./src/assets/organo-img4.png']} titulo='Organo' lang = 'HTML, CSS, Javascript, NODE JS, React' link = 'https://github.com/HenriqueCDS/Pokedex-Test-Api' />
             <ProjetosCard img= './src/assets/api-pokemon.png' titulo='Api Pokemon' lang = 'HTML, CSS, Javascript, API' link = 'https://github.com/HenriqueCDS/Pokedex-Test-Api'/>
-            <ProjetosCard img= './src/assets/organo-img1.png' titulo='Organo' lang = 'HTML, CSS ,Javascript, NODE JS' link = 'https://github.com/HenriqueCDS'/>
-
+            <ProjetosCard img= './src/assets/twitter.png' titulo='Twitter' lang = 'HTML, CSS ,Javascript,React, NODE JS' link = 'https://github.com/HenriqueCDS'/>
+            
+            <CardCarousel img= {['./src/assets/organo-img1.png','./src/assets/organo-img2.png','./src/assets/organo-img3.png','./src/assets/organo-img4.png']} titulo='Organo' lang = 'HTML, CSS, Javascript, NODE JS, React' link = 'https://github.com/HenriqueCDS/Pokedex-Test-Api' />
             <ProjetosCard img= 'https://i.pinimg.com/564x/2e/1f/fd/2e1ffdb926f30497aa5dc9bfb60a266f.jpg' titulo='Rest Api Edukas' lang = ' Javascript, SQL, NODE JS' link = 'https://github.com/HenriqueCDS'/>
             <ProjetosCard img= 'https://i.pinimg.com/564x/70/ec/a6/70eca69677ae305d3730b2791f9de2a9.jpg' titulo='Rest Api Mongo' lang = 'Javascript, Mongo, NODE JS' link = 'https://github.com/HenriqueCDS/Mongo-Api'/>
        
