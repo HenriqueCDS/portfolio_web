@@ -59,13 +59,12 @@ export function Conteudo() {
           
             
             
-          
-            <ProjetosCard img= './src/assets/api-pokemon.png' titulo='Api Pokemon' lang = 'HTML, CSS, Javascript, API' link = 'https://github.com/HenriqueCDS/Pokedex-Test-Api'/>
             <ProjetosCard img= './src/assets/twitter.png' titulo='Twitter' lang = 'HTML, CSS ,Javascript,React, NODE JS' link = 'https://github.com/HenriqueCDS'/>
-            
+            <ProjetosCard img= './src/assets/api-pokemon.png' titulo='Api Pokemon' lang = 'HTML, CSS, Javascript, API' link = 'https://github.com/HenriqueCDS/Pokedex-Test-Api'/>
+           
             <CardCarousel img= {['./src/assets/organo-img1.png','./src/assets/organo-img2.png','./src/assets/organo-img3.png','./src/assets/organo-img4.png']} titulo='Organo' lang = 'HTML, CSS, Javascript, NODE JS, React' link = 'https://github.com/HenriqueCDS/Pokedex-Test-Api' />
-            <ProjetosCard img= 'https://i.pinimg.com/564x/2e/1f/fd/2e1ffdb926f30497aa5dc9bfb60a266f.jpg' titulo='Rest Api Edukas' lang = ' Javascript, SQL, NODE JS' link = 'https://github.com/HenriqueCDS'/>
-            <ProjetosCard img= 'https://i.pinimg.com/564x/70/ec/a6/70eca69677ae305d3730b2791f9de2a9.jpg' titulo='Rest Api Mongo' lang = 'Javascript, Mongo, NODE JS' link = 'https://github.com/HenriqueCDS/Mongo-Api'/>
+            <ProjetosCard img= './src/assets/rest_api.jpeg' titulo='Rest Api Edukas' lang = ' Javascript, SQL, NODE JS' link = 'https://github.com/HenriqueCDS/Rest_Api_Questoes.git'/>
+            <ProjetosCard img= './src/assets/rest_api.jpeg' titulo='Rest Api Mongo' lang = 'Javascript, Mongo, NODE JS' link = 'https://github.com/HenriqueCDS/Mongo-Api'/>
        
           </div>
 

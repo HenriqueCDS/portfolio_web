@@ -24,7 +24,7 @@ export function Footer() {
                         <p>Hevn#0252</p>
                         <a href="mailto:henriquecordeiro054@gmail.com"><EnvelopeSimple size={32} /></a>
                         <p>henriquecordeiro054@gmail.com</p>
-                        <PhoneCall size={32} /><p>19 995454391</p>
+               
                     </div> 
             
             </div>
