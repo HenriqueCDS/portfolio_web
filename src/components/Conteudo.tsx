@@ -7,6 +7,9 @@ import { SkillCard } from './ConteudoAssets/SkillCard';
 import { ProjetosCard } from './ConteudoAssets/ProjetosCard';
 import { CardCarousel } from './ConteudoAssets/ProjetoCardCarrousel';
 
+//images do skill
+import  twitterImage from '../../src/assets/twitter.png';
+
 export function Conteudo() {
     return(
 
@@ -59,12 +62,12 @@ export function Conteudo() {
           
             
             
-            <ProjetosCard img= './src/assets/twitter.png' titulo='Twitter' lang = 'HTML, CSS ,Javascript,React, NODE JS' link = 'https://github.com/HenriqueCDS'/>
+            <ProjetosCard img= {twitterImage}  titulo='Twitter' lang = 'HTML, CSS ,Javascript,React, NODE JS' link = 'https://github.com/HenriqueCDS'/>
             <ProjetosCard img= './src/assets/api-pokemon.png' titulo='Api Pokemon' lang = 'HTML, CSS, Javascript, API' link = 'https://github.com/HenriqueCDS/Pokedex-Test-Api'/>
            
             <CardCarousel img= {['./src/assets/organo-img1.png','./src/assets/organo-img2.png','./src/assets/organo-img3.png','./src/assets/organo-img4.png']} titulo='Organo' lang = 'HTML, CSS, Javascript, NODE JS, React' link = 'https://github.com/HenriqueCDS/Pokedex-Test-Api' />
-            <ProjetosCard img= './src/assets/rest_api.jpeg' titulo='Rest Api Edukas' lang = ' Javascript, SQL, NODE JS' link = 'https://github.com/HenriqueCDS/Rest_Api_Questoes.git'/>
-            <ProjetosCard img= './src/assets/rest_api.jpeg' titulo='Rest Api Mongo' lang = 'Javascript, Mongo, NODE JS' link = 'https://github.com/HenriqueCDS/Mongo-Api'/>
+            <ProjetosCard img= '../../src/assets/rest_api.jpeg' titulo='Rest Api Edukas' lang = ' Javascript, SQL, NODE JS' link = 'https://github.com/HenriqueCDS/Rest_Api_Questoes.git'/>
+            <ProjetosCard img= '../../src/rest_api.jpeg' titulo='Rest Api Mongo' lang = 'Javascript, Mongo, NODE JS' link = 'https://github.com/HenriqueCDS/Mongo-Api'/>
        
           </div>
 
