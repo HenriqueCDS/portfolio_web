@@ -15,6 +15,7 @@ import  organoImage2 from '../../src/assets/organo-img2.png';
 import  organoImage3 from '../../src/assets/organo-img3.png'; 
 import  organoImage4 from '../../src/assets/organo-img4.png'; 
 import  RestApi from '../../src/assets/rest_api.jpeg'; 
+import  cinetag from '../../src/assets/cinetag.png'; 
 
 //cv
 import cv from '../../src/assets/files/Cv_Henrique.Cordeiro.pdf';
@@ -69,12 +70,12 @@ export function Conteudo() {
           <div className='card_grid'>
           
             
-
-            <ProjetosCard img= {twitterImage}  titulo='Twitter' lang = 'HTML, CSS ,Javascript,React, NODE JS' link = 'https://github.com/HenriqueCDS'/>
-            <ProjetosCard img= {PokemonImage} titulo='Api Pokemon' lang = 'HTML, CSS, Javascript, API' link = 'https://github.com/HenriqueCDS/Pokedex-Test-Api'/>
-            <CardCarousel img= {[organoImage1,organoImage2,organoImage3,organoImage4]} titulo='Organo' lang = 'HTML, CSS, Javascript, NODE JS, React' link = 'https://github.com/HenriqueCDS/Pokedex-Test-Api' />
-            <ProjetosCard img= {RestApi}  titulo='Rest Api Edukas' lang = ' Javascript, SQL, NODE JS' link = 'https://github.com/HenriqueCDS/Rest_Api_Questoes.git'/>
-            <ProjetosCard img= {RestApi} titulo='Rest Api Mongo' lang = 'Javascript, Mongo, NODE JS' link = 'https://github.com/HenriqueCDS/Mongo-Api'/>
+            <ProjetosCard img= {cinetag}  titulo='Cinetag' lang = 'HTML, CSS, Javascript, NODE JS, React' linkProjeto = 'https://cinetag-henrique.vercel.app/' link = 'https://github.com/HenriqueCDS/cinetag'/>
+            <ProjetosCard img= {twitterImage}  titulo='Twitter' lang = 'HTML, CSS ,Javascript,React, NODE JS' linkProjeto = 'https://masterclass-react-jet.vercel.app/' link = 'https://github.com/HenriqueCDS'/>
+            <ProjetosCard img= {PokemonImage} titulo='Api Pokemon' lang = 'HTML, CSS, Javascript, API' linkProjeto = 'https://pokemon-pokedex-api-dev.netlify.app/' link = 'https://github.com/HenriqueCDS/Pokedex-Test-Api'/>
+            <CardCarousel img= {[organoImage1,organoImage2,organoImage3,organoImage4]} titulo='Organo'linkProjeto = 'https://organo-react-coral.vercel.app/' lang = 'HTML, CSS, Javascript, NODE JS, React' link = 'https://github.com/HenriqueCDS/Pokedex-Test-Api' />
+            <ProjetosCard img= {RestApi}  titulo='Rest Api Edukas' lang = ' Javascript, SQL, NODE JS' linkProjeto = ''link = 'https://github.com/HenriqueCDS/Rest_Api_Questoes.git'/>
+            <ProjetosCard img= {RestApi} titulo='Rest Api Mongo' lang = 'Javascript, Mongo, NODE JS' linkProjeto = '' link = 'https://github.com/HenriqueCDS/Mongo-Api'/>
        
           </div>
 
