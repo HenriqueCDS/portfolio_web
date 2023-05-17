@@ -1,4 +1,4 @@
-import { ArchiveBox, ArrowCircleDown,  CodesandboxLogo,  GithubLogo, LinkedinLogo, } from 'phosphor-react';
+import { FilePdf , ArrowCircleDown,  CodesandboxLogo,  GithubLogo, LinkedinLogo, } from 'phosphor-react';
 import './Conteudo.css';
 import './ConteudoAssets/Apresetacao.css';
 
@@ -32,7 +32,7 @@ export function Conteudo() {
           <ul>
             <li><a href="https://github.com/HenriqueCDS" target="_blank"><span><GithubLogo size={32} /></span></a></li>
             <li><a href="https://www.linkedin.com/in/henrique-cordeiro-940709201/" target="_blank"><span><LinkedinLogo size={32} /></span></a></li>
-            <li><a href={cv} download={'CV.Henrique_cordeiro.pdf'}><ArchiveBox size={32} /></a></li>
+            <li><a href={cv} download={'CV.Henrique_cordeiro.pdf'}><FilePdf  size={32} /></a></li>
       
           </ul>
           
@@ -48,7 +48,7 @@ export function Conteudo() {
 
         <div className='template-skills' id='skills'>
           
-        <h1>#SKills --------------   <ArrowCircleDown size={40} /></h1>
+        <h1>#Habilidades --------------   <ArrowCircleDown size={40} /></h1>
           <div className='skils'>
             <SkillCard key='Props' titulo ='LINGUAGENS' texto = {['PHP','Python','Javascript','C e C++']} icon = {[<ArrowCircleDown />,<ArrowCircleDown />,<ArrowCircleDown />]} />
             <SkillCard key='Props' titulo ='DATABASES' texto = {['Mysql','MongoDB']} />

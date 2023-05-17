@@ -25,6 +25,7 @@
     
     
   }
+
   .conteudo  h2{
   
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -33,6 +34,45 @@
     font-size: 1.3rem;
     
   }
+
+  @media only screen and (max-width: 800px) {
+    
+    .conteudo  h1{
+  
+      font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+      
+      font-size: 1.4rem;
+      text-align: left;
+
+     
+    }
+    .conteudo  p{
+  
+      font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+      line-height: 1rem;
+      font-weight: 200;
+      font-size: 1rem;
+      text-align: left;
+      
+      
+    }
+    .conteudo  h2{
+  
+      font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+      line-height: 1rem;
+
+      font-size: 0.5rem;
+      
+    }
+    .conteudo{
+
+      padding: 1rem;
+      margin:  0.5rem;
+      
+    }
+  }
+
+ 
 
 
 
@@ -48,6 +88,19 @@
     grid-gap: 2rem;
 
   }
+  @media only screen and (max-width: 800px) {
+    
+    .projetos .card_grid{
+      margin-top: 3%;
+      display: grid;
+      grid-template-columns: 100% ;
+      grid-gap: 2rem;
+  
+    }
+   
+  }
+  
+
   .projetos .card{
     background-color: #6ae7a2;
     border-radius: 1rem;

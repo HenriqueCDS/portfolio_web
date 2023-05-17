@@ -65,4 +65,16 @@
     to {transform: translateY(-5px);}
  
   }
+
+  @media only screen and (max-width: 800px) {
+    .skils{ 
+      margin-top: 2%;
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 0.1rem;
+    
+    }
+   
+  }
+
   

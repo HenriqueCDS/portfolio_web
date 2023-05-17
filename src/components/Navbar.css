@@ -52,4 +52,27 @@
     } 
   }
   
+  @media only screen and (max-width: 800px) {
+    
+    .navbar{
+  
+     
+      background-color:#6ae7a2;
+      animation: entryUp 3.5s ease ;
+    }
+    .navbar li {
+      display: inline-flex;
+      margin:  0.3rem;
+      
+    }
+    .navbar span {
+      font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+      font-weight: 700;
+      font-size: 1rem;
+     
+     
+    }
+   
+  }
   

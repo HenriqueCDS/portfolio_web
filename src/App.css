@@ -11,14 +11,15 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 ::-webkit-scrollbar{
-  width: 5px;
-  height: 10px;
+  width: 2px;
+  height: 5px;
   background-color: #282C33;
+  transition: 1s ease;
  
 }
 ::-webkit-scrollbar:hover{
-  width: 5px;
-  height: 10px;
+  width: 3px;
+  
   background-color: #282C33;
  
 }

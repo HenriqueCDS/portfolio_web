@@ -96,3 +96,17 @@
    
   }
  
+  @media only screen and (max-width: 800px) {
+    .conteudo .apresentacao .textoApresent li{
+      display: inline-flex;
+      float: left; 
+    }
+    .conteudo .image img{
+      animation:  entryRight normal 2s linear; 
+      width: 10rem;
+      height: 10rem;
+      border: solid 2px;
+      transition: 2s;
+    
+    }
+  }
