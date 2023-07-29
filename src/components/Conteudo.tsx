@@ -16,7 +16,7 @@ import  organoImage3 from '../../src/assets/organo-img3.png';
 import  organoImage4 from '../../src/assets/organo-img4.png'; 
 import  RestApi from '../../src/assets/rest_api.jpeg'; 
 import  cinetag from '../../src/assets/cinetag.png'; 
-
+import  templateCustom from '../../src/assets/template-custom.png'; 
 //cv
 import cv from '../../src/assets/files/Cv_Henrique.Cordeiro.pdf';
 export function Conteudo() {
@@ -48,7 +48,7 @@ export function Conteudo() {
 
         <div className='template-skills' id='skills'>
           
-        <h1>#Habilidades --------------   <ArrowCircleDown size={40} /></h1>
+        <h1 className='title'>#Habilidades --------------   <ArrowCircleDown size={40} /></h1>
           <div className='skils'>
             <SkillCard key='Props' titulo ='LINGUAGENS' texto = {['PHP','Python','Javascript','C e C++']} icon = {[<ArrowCircleDown />,<ArrowCircleDown />,<ArrowCircleDown />]} />
             <SkillCard key='Props' titulo ='DATABASES' texto = {['Mysql','MongoDB']} />
@@ -65,18 +65,20 @@ export function Conteudo() {
 
 
         <div className='projetos' id='project'>
-          <h1>#Projetos  --------------   <ArrowCircleDown size={40} /></h1>
+          <h1 className='title'>#Projetos  --------------   <ArrowCircleDown size={40} /></h1>
 
           <div className='card_grid'>
           
             
-            <ProjetosCard img= {cinetag}  titulo='Cinetag' lang = 'HTML, CSS, Javascript, NODE JS, React' linkProjeto = 'https://cinetag-henrique.vercel.app/' link = 'https://github.com/HenriqueCDS/cinetag'/>
+            <ProjetosCard img= {cinetag}  titulo='Cinetag' lang = 'HTML, CSS, Javascript, NODE JS e REACT' linkProjeto = 'https://cinetag-henrique.vercel.app/' link = 'https://github.com/HenriqueCDS/cinetag'/>
             <ProjetosCard img= {twitterImage}  titulo='Twitter' lang = 'HTML, CSS ,Javascript,React, NODE JS' linkProjeto = 'https://masterclass-react-jet.vercel.app/' link = 'https://github.com/HenriqueCDS'/>
+            <ProjetosCard img= {templateCustom} titulo='TemplateCustom' lang = 'HTML, CSS, Javascript, NODE JS e REACT' linkProjeto = 'https://template-custom.vercel.app/' link = 'https://github.com/HenriqueCDS/template-custom'/>
+            
             <ProjetosCard img= {PokemonImage} titulo='Api Pokemon' lang = 'HTML, CSS, Javascript, API' linkProjeto = 'https://pokemon-pokedex-api-dev.netlify.app/' link = 'https://github.com/HenriqueCDS/Pokedex-Test-Api'/>
             <CardCarousel img= {[organoImage1,organoImage2,organoImage3,organoImage4]} titulo='Organo'linkProjeto = 'https://organo-react-coral.vercel.app/' lang = 'HTML, CSS, Javascript, NODE JS, React' link = 'https://github.com/HenriqueCDS/Pokedex-Test-Api' />
             <ProjetosCard img= {RestApi}  titulo='Rest Api Edukas' lang = ' Javascript, SQL, NODE JS' linkProjeto = ''link = 'https://github.com/HenriqueCDS/Rest_Api_Questoes.git'/>
             <ProjetosCard img= {RestApi} titulo='Rest Api Mongo' lang = 'Javascript, Mongo, NODE JS' linkProjeto = '' link = 'https://github.com/HenriqueCDS/Mongo-Api'/>
-       
+          
           </div>
 
         </div>

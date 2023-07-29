@@ -10,10 +10,7 @@ function App() {
       
      
       <Navbar />
-
-     
       <Conteudo />
-      
       <Footer />
 
 

@@ -15,7 +15,6 @@
     }
   .skils-item{
     
-    animation: skill 1s ease-in-out alternate infinite;
     padding: 20px;
     font-size: 30px;
     
@@ -61,10 +60,7 @@
    
   }
 
-  @keyframes skill {
-    to {transform: translateY(-5px);}
- 
-  }
+  
 
   @media only screen and (max-width: 800px) {
     .skils{ 

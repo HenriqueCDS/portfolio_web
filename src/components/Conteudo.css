@@ -7,7 +7,6 @@
   }
  
   .conteudo  h1{
-  
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1rem;
     font-size: 3.5rem;
@@ -15,6 +14,11 @@
     padding-top: 0rem;
    
   }
+  .conteudo .title{
+    animation: skill 1s ease-in-out alternate infinite;
+  
+  }
+   
   .conteudo  p{
   
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -38,9 +42,8 @@
   @media only screen and (max-width: 800px) {
     
     .conteudo  h1{
-  
-      font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
       
+      font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; 
       font-size: 1.4rem;
       text-align: left;
 
@@ -57,7 +60,7 @@
       
     }
     .conteudo  h2{
-  
+     
       font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
       line-height: 1rem;
 
@@ -82,23 +85,13 @@
   }
 
   .projetos .card_grid{
-    margin-top: 3%;
+    margin: 2rem;
     display: grid;
     grid-template-columns: 33% 33% 33% ;
     grid-gap: 2rem;
 
   }
-  @media only screen and (max-width: 800px) {
-    
-    .projetos .card_grid{
-      margin-top: 3%;
-      display: grid;
-      grid-template-columns: 100% ;
-      grid-gap: 2rem;
   
-    }
-   
-  }
   
 
   .projetos .card{
@@ -143,7 +136,7 @@
     border: solid 0px;
     display: flex;
     object-fit: cover;
-    object-position: left;
+    object-position: center;
     border-top-left-radius:  10px;
     border-top-right-radius: 10px;
   } 
@@ -153,13 +146,39 @@
     transition: 1s;  
   }
 
+  @media only screen and (max-width: 800px) {
+    
+    .projetos .card_grid{
+      margin-top: 3%;
+      display: grid;
+      grid-template-columns: 100% ;
+      grid-gap: 2rem;
+  
+    }
+    
+  .projetos .card h3{
+    font-size: 1.5rem;
+  }
+  .projetos .card p{
+   
+    color: #17181b;
+    font-size: 0.75rem;
+   
+    
+  }
+   
+  }
+
   @keyframes card {
-    from {transform: scale(105%) rotate(2deg); }
+    from {transform: scale(102%) }
    
   }
 
  
-
+  @keyframes skill {
+    to {transform: translateY(-5px);}
+ 
+  }
  
 
   @keyframes opacity {
