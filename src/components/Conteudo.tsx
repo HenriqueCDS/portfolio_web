@@ -27,7 +27,7 @@ export function Conteudo() {
 
         <div className = 'apresentacao' id='home'>
           <div className='textoApresent'>
-          <h1>Henrique Dev<span id='smile'>ツ</span></h1>
+          <h1>Henrique Dev<span className='smile'>ツ</span></h1>
           <p>Ei sou desenvolvedor Fullstack, Bem vindo ao meu portifolio!! </p>
           <ul>
             <li><a href="https://github.com/HenriqueCDS" target="_blank"><span><GithubLogo size={32} /></span></a></li>
